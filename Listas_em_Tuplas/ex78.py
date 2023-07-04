@@ -5,9 +5,8 @@ valor digitado e as suas respectivas posições na lista
 
 valores = []  # lista vazia para armazenar os valores
 
-for i in range(5):
-    valor = float(input(f"Digite o {i+1}º valor: "))
-    valores.append(valor)
+for i in range(0, 5):
+    valores.append(int(input(f'Digite um valor a Posição {i}: ')))
 
 # Encontrar o maior valor e sua posição
 maior_valor = max(valores)
